@@ -1,4 +1,4 @@
-# asciidocTablePrettify
+# Overview
 
 This repository contains a script that visually formats simple tables in Asciidoc files into a more readable format.
 
