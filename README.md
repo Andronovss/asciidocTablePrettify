@@ -29,8 +29,8 @@ Into a more visualized view:
 
 As a result, the script will create a file **output.adoc**, which will be a copy of the selected file, but with formatted tables.
 
- **Note**
-The contents in the **output.adoc** file are always overwritten after the script is run!
+> **Note**
+> The contents in the **output.adoc** file are always overwritten after the script is run!
 
 ## How to use
 
