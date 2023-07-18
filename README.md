@@ -13,7 +13,7 @@ The script allows you to render tables of the following type:
 |Column 1, row 2|Column 2, row 2 |Column 3, row 2
 
 |Column 1, row 3  |Column 2, row 3 |Column 3, row 3
-|=
+|===
 ```
 
 Into a more visualized view:
