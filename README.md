@@ -1,6 +1,6 @@
 # asciidocTablePrettify
 
-This repository contains a script that visually formats simple tables in asciidoc files into a more readable format.
+This repository contains a script that visually formats simple tables in Asciidoc files into a more readable format.
 
 The script allows you to render tables of the following type:
 
@@ -29,8 +29,8 @@ Into a more visualized view:
 
 As a result, the script will create a file **output.adoc**, which will be a copy of the selected file, but with formatted tables.
 
-> **Note**
-> The contents in **output.adoc** file are always overwritten after the script is run!
+ **Note**
+The contents in the **output.adoc** file are always overwritten after the script is run!
 
 ## How to use
 
