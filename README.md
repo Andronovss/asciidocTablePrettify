@@ -44,5 +44,5 @@ At that, the console will display help. Or you can specify as an argument the fi
 
 ## What's new
 
-* [https://github.com/Andronovss/asciidocTablePrettify/tree/feature--1.0.a](feature--1.0.a) -- Added a check for the number of "|" symbols.
+* [feature--1.0.a](https://github.com/Andronovss/asciidocTablePrettify/tree/feature--1.0.a) -- Added a check for the number of "|" symbols.
 If the number is not true, then -- false.
