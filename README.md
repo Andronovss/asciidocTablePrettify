@@ -41,3 +41,8 @@ Just run the script with the following command:
 At that, the console will display help. Or you can specify as an argument the file in which you want to format the tables:
 
 `python script.py input.adoc`
+
+## What's new
+
+* [feature--1.0.a](https://github.com/Andronovss/asciidocTablePrettify/tree/feature--1.0.a) -- Added a check for the number of "|" symbols.
+If the number is not true, then -- false.
