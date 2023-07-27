@@ -13,7 +13,7 @@ def align_vertical_bars_in_tables(adoc_content):
         # Split the table into rows
         lines = table.strip().split('\n')
 
-        # Determining the maximum number of symbols in each cell
+        # Determining the maximum number of symbols in each row
         max_lengths = [0] * len(lines[0].split('|'))
         new_lines = []
 
@@ -22,6 +22,10 @@ def align_vertical_bars_in_tables(adoc_content):
             if '|' not in line:
                 continue
             cells = line.strip().split('|')
+            if len(cells) != len(max_lengths):
+                # If the number of '|' symbols in this row is not equal to the expected number of columns,
+                # return the original table content without modifications.
+                return match.group()
             for i, cell in enumerate(cells):
                 # Find the maximum length for each cell
                 max_lengths[i] = max(max_lengths[i], len(cell.strip()))
@@ -30,7 +34,7 @@ def align_vertical_bars_in_tables(adoc_content):
 
         aligned_lines = []
         for line in new_lines:
-            # Align the symbols in each cell
+            # Align the symbols in each row
             aligned_cells = [cell.strip().ljust(max_lengths[i]) for i, cell in enumerate(line)]
 
             # Add spaces to the last element in every cell except empty cells
